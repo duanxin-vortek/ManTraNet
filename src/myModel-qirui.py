@@ -1,10 +1,3 @@
-"""
-ManTra-Net Model Definition
-
-Created on Thu Nov 29 18:07:45 2018
-
-@author: yue_wu
-"""
 import os
 from keras.layers import Layer, Input, GlobalAveragePooling2D, Lambda, Dense
 from keras.layers import ConvLSTM2D, Conv2D, AveragePooling2D, BatchNormalization
